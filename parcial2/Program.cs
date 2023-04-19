@@ -1,2 +1,16 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿//parcial 2 //
+// codigo//
+//Pregunta practica//
+
+int datol = 16;
+String dato2 = "25g";
+
+try
+{
+    int resultado = dato1 + Convert.ToInt32(dato2);
+    Console.WriteLine(resultado);  
+}
+catch (Exception)
+{
+    Console.WriteLine("Lo sentimos no se pudo realizar la operación solicitada");
+}
